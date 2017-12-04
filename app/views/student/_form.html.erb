@@ -1,0 +1,17 @@
+<h1>Student#new</h1>
+
+<%= form_for @student, url:{action: "create"}, html: {class: "form"} do  |s| %>
+
+  <p>
+    <%= s.label :name %>
+    <%= s.text_field :name %>
+  </p>
+  <p>
+    <%= s.label :gender %>
+    <%= s.text_field :gender %>
+  </p>
+
+  <p>
+    <%= s.submit "tambah" %>
+  </p>
+<% end %>
