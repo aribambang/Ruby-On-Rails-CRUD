@@ -1,25 +1,12 @@
-# README
+# Ruby On Rails CRUD
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Langkah:
 
-Things you may want to cover:
+1. Membuat project Rails
+ - $ rails new RubyStudies -d mysql
 
-* Ruby version
+2. Konfigurasi database
+ - setting username dan password database di config/database.yml
+ - $ rake db:create 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# Ruby-On-Rails-CRUD
+by Ari Bambang Kurniawan
